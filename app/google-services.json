@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "539874498956",
+    "firebase_url": "https://cesar-4f9ec.firebaseio.com",
+    "project_id": "cesar-4f9ec",
+    "storage_bucket": "cesar-4f9ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539874498956:android:cb3b027007ec3f915d5ea9",
+        "android_client_info": {
+          "package_name": "com.example.cesar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539874498956-5g64onkb2usl1vef60s45tb2v2h1d1mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsyPj7SIJBEpnnLb2utEui_9lkK1NrUCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539874498956-5g64onkb2usl1vef60s45tb2v2h1d1mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

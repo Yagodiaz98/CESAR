@@ -5,6 +5,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Patterns;
@@ -92,6 +93,9 @@ public class RegisterActivity extends AppCompatActivity {
                             // Sign in success, dismiss dialog and start register activity
                             progressDialog.dismiss();
                             FirebaseUser user = mAuth.getCurrentUser();
+                            Toast.makeText(RegisterActivity.this, "Registrado...\n"+user.getEmail(), Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(RegisterActivity.this, ProfileActivity.class));
+                            finish();
                         } else {
                             // If sign in fails, display a message to the user.
                             progressDialog.dismiss();

@@ -9,6 +9,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
+        /*Update library, otherwise you may get error:
+        "Default FirebaseApp is not initialized in this progress"   */
         classpath 'com.google.gms:google-services:4.3.3'
 
 
